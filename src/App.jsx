@@ -13,25 +13,25 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Plsss? :( You're breaking my heart",
+      "Нет",
+      "Ээ.. ты уверена??",
+      "Точно??",
+      "НУ НАСТЯЯ",
+      "Ну ээээ",
+      "Почему нет?",
+      "Падажди-ка.. точно нет??",
+      "Ну ладно, смирилась!! (нет)",
+      "Да, я такая",
+      "Ну ты котек же",
+      "ТЫ КОТЕК",
+      "И енотик да ты права",
+      "Но главное что ты котекк",
+      "И не спорь",
+      "А НУ НЕ СПОРЬ",
+      "ты котекк",
+      "КОТЕККК",
+      "такой мимими котек",
+      "ну короче ты котек пон",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -41,9 +41,9 @@ export default function Page() {
     <div className="overflow-hidden flex flex-col items-center justify-center pt-4 h-screen -mt-16 selection:bg-rose-600 selection:text-white text-zinc-900">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
+          <img src="https://tenor.com/ru/view/cat-happy-dance-cartoon-gif-9105753814336428544" />
           <div className="text-4xl md:text-6xl font-bold my-4">
-            Ok Yayyyyy!!!
+            УРА КОТЕК
           </div>
         </>
       ) : (
@@ -58,10 +58,10 @@ export default function Page() {
           />
           <img
             className="h-[230px] rounded-lg shadow-lg"
-            src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
+            src="https://tenor.com/ru/view/silly-cat-no-text-no-one-no-words-empty-meme-stroke-gif-15599687893969589958"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Will you be my Valentine?
+            Ты котек?
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
@@ -69,7 +69,7 @@ export default function Page() {
               style={{ fontSize: yesButtonSize }}
               onClick={() => setYesPressed(true)}
             >
-              Yes
+              Да
             </button>
             <button
               onClick={handleNoClick}
