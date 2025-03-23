@@ -41,7 +41,7 @@ export default function Page() {
     <div className="overflow-hidden flex flex-col items-center justify-center pt-4 h-screen -mt-16 selection:bg-rose-600 selection:text-white text-zinc-900">
       {yesPressed ? (
         <>
-          <img src="https://tenor.com/ru/view/cat-happy-dance-cartoon-gif-9105753814336428544" />
+          <img src="https://media1.tenor.com/m/QSXHbbtyF4UAAAAC/cat-haircut-cat.gif" />
           <div className="text-4xl md:text-6xl font-bold my-4">
             УРА КОТЕК
           </div>
@@ -58,7 +58,7 @@ export default function Page() {
           />
           <img
             className="h-[230px] rounded-lg shadow-lg"
-            src="https://tenor.com/ru/view/silly-cat-no-text-no-one-no-words-empty-meme-stroke-gif-15599687893969589958"
+            src="https://media1.tenor.com/m/ePPBZsp_t80AAAAC/cute-cats.gif"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
             Ты котек?
